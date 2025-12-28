@@ -1,0 +1,197 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 整体容器背景渐变，增加 flex:1 保证撑满屏幕 */
+.container {
+  flex: 1; /* 新增，确保容器撑满屏幕 */
+  padding: 30px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #a0e8b0, #8fd1ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+/* 头像区域 */
+.avatar-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+.upload-btn {
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #e1f6fc, #e8f8ee);
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.25);
+}
+.upload-btn:active { -webkit-animation: shine 1s linear infinite; animation: shine 1s linear infinite;
+}
+/* 用户名输入框 */
+.field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.label {
+  font-size: 16px;
+  color: #2a2a2a; 
+  text-shadow: 0 2px 3px rgba(255,255,255,0.45);
+}
+.username-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #b0dce0;
+  border-radius: 12px;
+  margin-left: 10px;
+  background: linear-gradient(to right, #e1f6fc, #e8f8ee);
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+/* 保存信息按钮 */
+.save-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #e1f6fc, #e8f8ee);
+  color: #333;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.25);
+}
+.save-btn:active { -webkit-animation: shine 1s linear infinite; animation: shine 1s linear infinite;
+}
+/* 导航按钮行 */
+.btn-row {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.nav-btn {
+  flex: 1;
+  margin: 0 5px;
+  padding: 12px;
+  background: linear-gradient(to right, #e1f6fc, #e8f8ee);
+  color: #333;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.25);
+}
+.nav-btn:active { -webkit-animation: shine 1s linear infinite; animation: shine 1s linear infinite;
+}
+/* 流光动效 */
+@-webkit-keyframes shine {
+0% { box-shadow: 0 0 5px rgba(255,255,255,0.5);
+}
+50% { box-shadow: 0 0 15px rgba(255,255,255,0.9);
+}
+100% { box-shadow: 0 0 5px rgba(255,255,255,0.5);
+}
+}
+@keyframes shine {
+0% { box-shadow: 0 0 5px rgba(255,255,255,0.5);
+}
+50% { box-shadow: 0 0 15px rgba(255,255,255,0.9);
+}
+100% { box-shadow: 0 0 5px rgba(255,255,255,0.5);
+}
+}
+

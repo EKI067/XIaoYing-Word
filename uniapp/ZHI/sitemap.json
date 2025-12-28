@@ -1,0 +1,8 @@
+{
+  "rule": [
+    {
+      "action": "allow",
+      "page": "*"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    {"path": "pages/login/login", "style":{
+     "navigationBarTitleText": "登录",
+     "navigationBarBackgroundColor": "#ffffff",
+     "navigationBarTextStyle": "black",
+     "backgroundColor": "#ffffff",
+     "backgroundTextStyle": "light"
+    }},
+    { "path": "pages/profile/profile", "style": { "navigationBarTitleText": "个人中心" } },
+    { "path": "pages/speech/speech", "style": { "navigationBarTitleText": "中英互译" } },
+	{
+		"path": "pages/memo/memo",
+		"style": {
+			"navigationBarTitleText": "备忘录"
+		}
+	},
+	{
+		"path": "pages/search/search",
+		"style": {
+			"navigationBarTitleText": "搜索记录"
+		}
+	}
+  ],
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#007aff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/profile/profile", "text": "个人", "iconPath": "static/user.png", "selectedIconPath": "static/user-active.png" },
+      { "pagePath": "pages/speech/speech", "text": "中英互译", "iconPath": "static/speech.png", "selectedIconPath": "static/speech-active.png" },
+      { "pagePath": "pages/memo/memo", "text": "备忘录", "iconPath": "static/memo.png", "selectedIconPath": "static/memo-active.png" }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "英语单词练习",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f0f0f0"
+  }
+}

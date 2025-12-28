@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/profile/profile",
+    "pages/speech/speech",
+    "pages/memo/memo",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "英语单词练习",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f0f0f0"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#007aff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user-active.png"
+      },
+      {
+        "pagePath": "pages/speech/speech",
+        "text": "中英互译",
+        "iconPath": "static/speech.png",
+        "selectedIconPath": "static/speech-active.png"
+      },
+      {
+        "pagePath": "pages/memo/memo",
+        "text": "备忘录",
+        "iconPath": "static/memo.png",
+        "selectedIconPath": "static/memo-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
